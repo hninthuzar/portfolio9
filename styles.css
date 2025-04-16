@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Jost;
+    src: url(fonts/Jost/Jost-VariableFont_wght.ttf)
+}
+
+:root {
+    --primaryColor: #0972E4
+}
+
+body,
+html {
+    margin: 0;
+    font-family: Jost, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    scroll-behavior: smooth;
+    color: #e5e7eb;
+    background-color: #060507;
+    height: 100vh;
+    letter-spacing: 1px
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    margin-block: auto;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+footer {
+    margin-top: auto;
+}
